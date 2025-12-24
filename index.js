@@ -10,7 +10,7 @@ async function fetchData(){
         const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonName}`);
 
         if(!response.ok){
-            throw new Error("Failed to fetch resource from the URL!")
+            throw new Error("Invalid Name!!");
         }
    
         const data = await response.json();
