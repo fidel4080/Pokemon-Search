@@ -1,6 +1,5 @@
 // Pokemone Search
 
-
 async function fetchData(){
 
     try{
@@ -27,5 +26,4 @@ async function fetchData(){
     
 }
 
-fetchData();
 
